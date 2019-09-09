@@ -1,0 +1,9 @@
+---
+applications:
+  - name: dataflow-website-staging
+    routes:
+      - route: dataflow-staging.cfapps.io
+    memory: 1G
+    disk_quota: 1G
+    instances: 1
+    path: ./cloud-foundry
