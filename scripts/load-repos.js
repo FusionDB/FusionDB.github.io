@@ -5,8 +5,8 @@ import versions from '../content/versions.json'
 import { cleanDir, createDir, execaOptions, info, log, main } from './utils'
 
 const DATA_DIR = path.join(__dirname, '../data')
-const REPO = 'spring-io/dataflow.spring.io'
-const ANAME = 'dataflow.spring.io'
+const REPO = 'FusionDB'
+const ANAME = 'fusiondb.github.io'
 const AEXT = '.tar.gz'
 const url = version => `https://github.com/${REPO}/archive/${version}${AEXT}`
 const loadRepos = async () => {

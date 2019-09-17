@@ -17,7 +17,7 @@ const NotFoundPage = () => (
         <div className='logo-dataflow'>
           <Link to='/'>
             <Logo />
-            Spring Cloud <strong>Data Flow</strong>
+            <strong>FusionDB</strong>
           </Link>
         </div>
 
@@ -37,6 +37,9 @@ const NotFoundPage = () => (
           </li>
           <li>
             <Link to='/getting-started/'>Getting Started</Link>
+          </li>
+          <li>
+            <Link to='/design/'>Design</Link>
           </li>
           <li>
             <Link to='/community/'>Community</Link>

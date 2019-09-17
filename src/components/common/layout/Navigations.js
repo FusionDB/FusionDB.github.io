@@ -69,6 +69,7 @@ class Navigation extends React.Component {
                   name='Getting Started'
                   to='/getting-started/'
                 />
+                <NavigationLink active name='Design' to='/design/' />
                 <NavigationLink active name='Community' to='/community/' />
               </div>
               <div className='navigation right'>

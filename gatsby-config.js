@@ -168,7 +168,7 @@ const plugins = [
       background_color: `#45968f`,
       theme_color: `#45968f`,
       display: `minimal-ui`,
-      icon: `src/images/dataflow-icon.png`,
+      icon: `src/images/fdb-icon.png`,
     },
   },
 ]

@@ -59,7 +59,7 @@ const IndexPage = () => (
               </Link>{' '}
               <a
                 className='button light icon'
-                href='https://github.com/spring-cloud/spring-cloud-dataflow'
+                href='https://github.com/fusiondb/fusiondb'
                 target='_blank'
                 rel='noreferrer noopener'
               >

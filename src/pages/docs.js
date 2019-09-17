@@ -73,8 +73,8 @@ class DocsPage extends React.Component {
               <div className='page-title'>
                 <h1>Documentation</h1>
                 <p>
-                  Comprehensive documentation, guides, and resources for Spring
-                  Cloud Data Flow.
+                  Comprehensive documentation, guides, and resources for
+                  FusionDB.
                 </p>
 
                 {optionVersions.length > 1 && (
