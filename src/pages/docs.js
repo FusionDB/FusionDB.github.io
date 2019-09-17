@@ -26,7 +26,12 @@ class DocsPage extends React.Component {
           description: get(edges, 'edges[1].node.frontmatter.description'),
           path: get(edges, 'edges[1].node.fields.path'),
         },
-        {},
+        {
+          id: 'design',
+          title: get(edges, 'edges[8].node.frontmatter.title'),
+          description: get(edges, 'edges[8].node.frontmatter.description'),
+          path: get(edges, 'edges[8].node.fields.path'),
+        },
       ],
       [
         {

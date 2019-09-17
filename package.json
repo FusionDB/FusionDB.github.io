@@ -1,21 +1,21 @@
 {
-  "name": "spring-cloud-dataflow-website",
-  "description": "Spring Cloud Data Flow Website",
+  "name": "FusionDB-website",
+  "description": "FusionDB Website",
   "version": "0.0.1",
-  "author": "Spring Team",
+  "author": "FusionDB Team",
   "keywords": [
     "gatsby",
     "algolia",
-    "dataflow",
+    "FusionDB",
     "website"
   ],
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spring-io/dataflow.spring.io"
+    "url": "https://github.com/FusionDB/FusionDB.github.io"
   },
   "bugs": {
-    "url": "https://github.com/spring-io/dataflow.spring.io/issues"
+    "url": "https://github.com/FusionDB/FusionDB.github.io/issues"
   },
   "scripts": {
     "clean": "rimraf .cache",
