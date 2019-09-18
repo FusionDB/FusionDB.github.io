@@ -2,14 +2,14 @@ const queries = require(`./utils/algolia-queries`)
 const versions = require('./content/versions.json')
 
 const siteMetadata = {
-  title: `Spring Cloud Data Flow`,
-  description: `Spring Cloud Data Flow puts powerful integration, batch and stream processing in the hands of the Java microservice developer`,
-  author: `@springcloud`,
-  siteUrl: `https://dataflow.spring.io`,
-  canonical: `https://dataflow.spring.io`,
-  twitter: `@springcloud`,
-  image: `https://dataflow.spring.io/images/card.jpg`,
-  keywords: [`spring`, `cloud`, `dataflow`],
+  title: `FusionDB`,
+  description: `FusionDB puts powerful integration, batch and stream processing in the hands of the HTAP database`,
+  author: `@FusionDB`,
+  siteUrl: `https://www.fusiondb.cn`,
+  canonical: `https://www.fusiondb.cn`,
+  twitter: `@FusionDB`,
+  image: `https://www.fusiondb.cn/images/card.jpg`,
+  keywords: [`FusionDB`, `cloud`, `database`],
 }
 
 const arrVars = Object.entries(versions).map(([name, version]) => {
@@ -181,7 +181,7 @@ if (process.env.ALGOLIA_ADMIN_KEY) {
   plugins.push({
     resolve: `gatsby-plugin-algolia`,
     options: {
-      appId: `ZFB6X2VA6A`,
+      appId: `${process.env.GATSBY_ALGOLIA_APP_ID}`,
       apiKey: `${process.env.ALGOLIA_ADMIN_KEY}`,
       queries,
       chunkSize: 10000, // default: 1000

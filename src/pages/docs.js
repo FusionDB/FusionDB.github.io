@@ -12,6 +12,9 @@ class DocsPage extends React.Component {
     const edges = this.props.data.pages
     const optionVersions = getVersions(versions)
 
+    // fix edges node value
+    // console.log(edges)
+
     const pages = [
       [
         {
@@ -28,9 +31,9 @@ class DocsPage extends React.Component {
         },
         {
           id: 'design',
-          title: get(edges, 'edges[8].node.frontmatter.title'),
-          description: get(edges, 'edges[8].node.frontmatter.description'),
-          path: get(edges, 'edges[8].node.fields.path'),
+          title: get(edges, 'edges[7].node.frontmatter.title'),
+          description: get(edges, 'edges[7].node.frontmatter.description'),
+          path: get(edges, 'edges[7].node.fields.path'),
         },
       ],
       [

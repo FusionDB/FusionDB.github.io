@@ -3,11 +3,10 @@
 ## yarn build & generate static website
 yarn build
 
-
 ## git clone & commit & push
 git clone git@github.com:FusionDB/fusiondb.github.io.git .deploy_git
 
-## generate website realm name.
+## generate website realm name for github.com
 echo "www.fusiondb.cn" > .deploy_git/CNAME
 
 cd .deploy_git/

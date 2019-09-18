@@ -6,3 +6,4 @@ yarn-error.log
 data/
 public/
 content/documentation/files/
+.deploy_git
