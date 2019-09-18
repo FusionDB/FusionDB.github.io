@@ -3,9 +3,9 @@ import React from 'react'
 import { Layout } from '../components/common/layout'
 import { Seo } from '../components/common/seo'
 
-const GettingStartedPage = () => (
+const DesignPage = () => (
   <Layout className='page-getting-started'>
-    <Seo title='Getting Started' />
+    <Seo title='Design' />
     <div className='container'>
       <div className='layout-sidebars layout-2-sidebars'>
         <div className='sidebar'>
@@ -13,13 +13,19 @@ const GettingStartedPage = () => (
             <div className='box-title'>Learning</div>
             <ul>
               <li>
-                <a href='/docs/concepts/architecture/'>FusionDB Architecture</a>
+                <a href='/docs/design/concept/'>Concept</a>
               </li>
               <li>
-                <a href='/docs/concepts/streams/'>Stream Concepts</a>
+                <a href='/docs/design/fql/'>SQL Layer</a>
               </li>
               <li>
-                <a href='/docs/concepts/batch-jobs/'>Batch Concepts</a>
+                <a href='/docs/design/core/'>Core Layer</a>
+              </li>
+              <li>
+                <a href='/docs/design/runtime/'>Runtime</a>
+              </li>
+              <li>
+                <a href='/docs/design/developer/'>Developer</a>
               </li>
               {/* <li>
                 <a href='/'>Pre-built Stream and Batch microservices.</a>
@@ -102,4 +108,4 @@ const GettingStartedPage = () => (
   </Layout>
 )
 
-export default GettingStartedPage
+export default DesignPage

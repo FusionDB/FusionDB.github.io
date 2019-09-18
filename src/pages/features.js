@@ -11,7 +11,7 @@ const FeaturesPage = () => (
         <div className='container'>
           <div className='text'>
             <p className='title'>
-              Spring Cloud <strong>Data Flow</strong>
+              <strong>FusionDB</strong>
             </p>
             <p className='description'>
               Microservice based <strong>Streaming</strong> and{' '}

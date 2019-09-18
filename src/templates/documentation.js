@@ -130,7 +130,7 @@ class DocumentationTemplate extends React.Component {
                   <div className='edit-on-github'>
                     <a
                       className='button icon'
-                      href={`https://github.com/spring-io/dataflow.spring.io/blob/master/content/documentation/${
+                      href={`https://github.com/fusiondb/fusiondb.github.io/blob/develop/content/documentation/${
                         this.props.data.page.fields.sourcePath
                       }`}
                     >

@@ -49,6 +49,9 @@ class Header extends React.Component {
             >
               Getting Started
             </Link>
+            <Link activeClassName={'active'} partiallyActive to='/design/'>
+              Design
+            </Link>
             <Link activeClassName={'active'} partiallyActive to='/community/'>
               Community
             </Link>
@@ -60,7 +63,7 @@ class Header extends React.Component {
               <Link to='/'>
                 <Logo />
                 <span>
-                  Spring Cloud <strong>Data Flow</strong>
+                  <strong>FusionDB</strong>
                 </span>
               </Link>
             </div>

@@ -12,6 +12,9 @@ class DocsPage extends React.Component {
     const edges = this.props.data.pages
     const optionVersions = getVersions(versions)
 
+    // fix edges node value
+    // console.log(edges)
+
     const pages = [
       [
         {
@@ -26,7 +29,12 @@ class DocsPage extends React.Component {
           description: get(edges, 'edges[1].node.frontmatter.description'),
           path: get(edges, 'edges[1].node.fields.path'),
         },
-        {},
+        {
+          id: 'design',
+          title: get(edges, 'edges[7].node.frontmatter.title'),
+          description: get(edges, 'edges[7].node.frontmatter.description'),
+          path: get(edges, 'edges[7].node.fields.path'),
+        },
       ],
       [
         {
@@ -73,8 +81,8 @@ class DocsPage extends React.Component {
               <div className='page-title'>
                 <h1>Documentation</h1>
                 <p>
-                  Comprehensive documentation, guides, and resources for Spring
-                  Cloud Data Flow.
+                  Comprehensive documentation, guides, and resources for
+                  FusionDB.
                 </p>
 
                 {optionVersions.length > 1 && (

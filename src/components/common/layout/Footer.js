@@ -15,9 +15,9 @@ const Footer = () => (
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://pivotal.io/'
+                href='http://fusionlab.cn'
               >
-                Pivotal
+                FusionDB
               </a>
             </span>
           </div>
@@ -26,38 +26,38 @@ const Footer = () => (
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://github.com/spring-cloud/spring-cloud-dataflow'
+                href='https://github.com/FusionDB/fusiondb'
               >
                 <IconGithub className='github' />
               </a>
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://gitter.im/spring-cloud/spring-cloud-dataflow'
+                href='https://gitter.im/fusiondb/fusiondb'
               >
                 <IconGitter className='gitter' />
               </a>
               <a
                 target='_blank'
                 rel='noreferrer noopener'
-                href='https://stackoverflow.com/questions/tagged/spring-cloud-dataflow'
+                href='https://stackoverflow.com/questions/tagged/fusiondb'
               >
                 <IconStackOverflow className='stackoverflow' />
               </a>
             </div>
             <div className='copyright'>
               <p>
-                © 2013-{new Date().getFullYear()} Pivotal Software, Inc. All
+                © 2013-{new Date().getFullYear()} Fusionlab Software, Inc. All
                 Rights Reserved.
               </p>
-              <p>Spring Cloud Data Flow is under the Apache 2.0 license.</p>
+              <p>FusionDB is under the Apache 2.0 license.</p>
             </div>
             <ul>
               <li>
                 <a
                   target='_blank'
                   rel='noreferrer noopener'
-                  href='https://pivotal.io/legal'
+                  href='http://www.fusionlab.cn'
                 >
                   Terms of service
                 </a>
@@ -66,7 +66,7 @@ const Footer = () => (
                 <a
                   target='_blank'
                   rel='noreferrer noopener'
-                  href='https://pivotal.io/privacy-policy'
+                  href='http://www.fusionlab.cn/privacy-policy'
                 >
                   Privacy
                 </a>

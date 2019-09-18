@@ -20,7 +20,7 @@ const CommunityPage = () => {
             <h1>Community</h1>
             <p>
               All our projects are hosted on{' '}
-              <a href='https://GitHub.com/spring-cloud/'>GitHub</a>
+              <a href='https://GitHub.com/FusionDB/'>GitHub</a>
             </p>
             <p className='love'>
               We{' '}
@@ -34,7 +34,7 @@ const CommunityPage = () => {
           <div className='page-colset'>
             <article>
               <h2>
-                Spring Cloud <strong>Data Flow</strong>
+                <strong>FusionDB</strong>
               </h2>
               <p>
                 Microservice based Streaming and Batch data processing for Cloud
@@ -42,21 +42,21 @@ const CommunityPage = () => {
               </p>
               <p className='social'>
                 <a
-                  href='https://github.com/spring-cloud/spring-cloud-dataflow'
+                  href='https://github.com/FusionDB/fusiondb'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
                   <IconGithub />
                 </a>
                 <a
-                  href='https://gitter.im/spring-cloud/spring-cloud-dataflow'
+                  href='https://gitter.im/FusionDB/fusiondb'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
                   <IconGitter />
                 </a>
                 <a
-                  href='https://stackoverflow.com/questions/tagged/spring-cloud-dataflow'
+                  href='https://stackoverflow.com/questions/tagged/fusiondb'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
@@ -66,29 +66,29 @@ const CommunityPage = () => {
             </article>
             <article>
               <h2>
-                Spring Cloud <strong>Stream</strong>
+                Core Data & Core AI <strong>Platform</strong>
               </h2>
               <p>
-                Event-driven Spring Boot microservices that communicate with one
-                another via messaging middleware
+                A better open source unified analysis platform, one-stop
+                solution & friendly developer
               </p>
               <p className='social'>
                 <a
-                  href='https://github.com/spring-cloud/spring-cloud-stream'
+                  href='https://github.com/fuslab/jdp'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
                   <IconGithub />
                 </a>
                 <a
-                  href='https://gitter.im/spring-cloud/spring-cloud-stream'
+                  href='https://gitter.im/fuslab/jdp'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
                   <IconGitter />
                 </a>
                 <a
-                  href='https://stackoverflow.com/questions/tagged/spring-cloud-stream'
+                  href='https://stackoverflow.com/questions/tagged/jdp'
                   target='_blank'
                   rel='noreferrer noopener'
                 >
@@ -133,7 +133,7 @@ const CommunityPage = () => {
           <div className='more'>
             <p>
               Several <strong>community members</strong> have made
-              implementations of Data Flow that deploy to other platforms.{' '}
+              implementations of FusionDB that deploy to other platforms.{' '}
               <strong>Thanks!</strong>
             </p>
             <p>
@@ -182,7 +182,7 @@ const CommunityPage = () => {
                 </p>
                 <p>
                   <a
-                    href='https://github.com/spring-cloud/spring-cloud-dataflow/#workspaces/scdf-combined--573b0ae28867c41f233bb0f7/board?repos=39469487,52819699,45694880,96455695,72460646,52798744,52803867,126892412,143091335,126892627,47708564,73841717,179378165'
+                    href='https://github.com/FusionDB/fusiondb#workspaces/fusiondb-5d7f24f34def500001d114ce/board?repos=161803185,207344909,194885307'
                     className='button'
                   >
                     View the backlog

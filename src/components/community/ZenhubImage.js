@@ -6,7 +6,7 @@ const ZenhubImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "zenhub.png" }) {
+        placeholderImage: file(relativePath: { eq: "zenhub-fdb.png" }) {
           childImageSharp {
             fluid(maxWidth: 500) {
               ...GatsbyImageSharpFluid

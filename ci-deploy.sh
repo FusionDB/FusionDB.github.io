@@ -1,14 +1,23 @@
 ## parsing parameters
 
-## generate directory
+## yarn build & generate static website
+yarn build
 
-mkdir -p .deploy_git
+## git clone & commit & push
+git clone git@github.com:FusionDB/fusiondb.github.io.git .deploy_git
 
+## generate website realm name for github.com
 echo "www.fusiondb.cn" > .deploy_git/CNAME
 
+cd .deploy_git/
+
+git pull origin master
+
 ## cp public static file to .deploy_git
+cp -r ../public/* ./
 
-cp -r public/* .deploy_git/
+git add .
 
-## git commit & push
+git commit -m "Site updated: $(date '+%Y-%m-%d %H:%M:%S')"
 
+git push -u origin master
