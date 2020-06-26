@@ -1,4 +1,3 @@
-## parsing parameters
 
 ## yarn build & generate static website
 yarn build
@@ -6,15 +5,22 @@ yarn build
 ## git clone & commit & push
 git clone git@github.com:FusionDB/fusiondb.github.io.git .deploy_git
 
-## generate website realm name for github.com
-echo "www.fusiondb.cn" > .deploy_git/CNAME
-
 cd .deploy_git/
 
 git pull origin master
 
-## cp public static file to .deploy_git
+## Deploying: git
+
+## Clearing .deploy_git folder...
+print "INFO  Clearing .deploy_git folder..."
+rm -rf ./*
+
+## Copying files from public folder...
+print "INFO Copying files from public folder..."
 cp -r ../public/* ./
+
+## generate website realm name for github.com
+echo "www.fusiondb.cn" > CNAME
 
 git add .
 
