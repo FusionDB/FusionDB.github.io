@@ -1,0 +1,141 @@
+.home-page {
+  .header {
+    border-bottom: 0;
+    background: $spring-gray-color;
+  }
+
+  main {
+    .band {
+      position: relative;
+      background: $spring-gray-color;
+      background: $spring-gray-color url(../images/radial.svg) no-repeat bottom
+        center;
+      background-size: 80% 80%;
+
+      .links {
+        @include links;
+        color: #666;
+        strong {
+          font-weight: normal;
+        }
+      }
+
+      .container {
+        // padding: 0 180px;
+      }
+
+      .band-content {
+        position: relative;
+        height: 450px;
+        margin: 0 auto;
+        max-width: 1300px;
+      }
+      .text {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: -40px;
+        padding-right: 600px;
+        left: 0;
+        //width: 600px;
+        p {
+          padding: $spring-8points * 2 0;
+          margin: 0;
+          &.description {
+            color: #666;
+            padding: $spring-8points * 2 0 0 0;
+            font-size: 20px;
+            strong {
+              color: $spring-color;
+              font-weight: normal;
+            }
+            a {
+            }
+          }
+        }
+      }
+      .image {
+        width: 550px;
+        position: absolute;
+        top: -30px;
+        right: 0;
+      }
+    }
+
+    a.button {
+      @include button-dark($spring-primary-color, white, $spring-8points * 2);
+      margin-right: $spring-8points;
+      &.light {
+        @include button-dark(
+          darken($spring-gray-color, 6),
+          $spring-color,
+          $spring-8points * 2
+        );
+      }
+      &.icon {
+        position: relative;
+        padding-left: 38px;
+        svg {
+          width: 20px;
+          position: absolute;
+          left: 10px;
+          top: 4px;
+        }
+      }
+    }
+
+    .colset {
+      display: flex;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding-top: $spring-8points * 2;
+      padding-bottom: $spring-8points * 6;
+      .col {
+        flex: 1;
+        margin-left: $spring-8points * 4;
+        background: $spring-gray-color;
+        @include effect-box(1.02, $spring-transition-duration);
+        cursor: default;
+        &.col-1 {
+          margin-left: 0;
+        }
+        &.col-2 {
+          //padding-top: $spring-8points * 2;
+        }
+        &.col-1,
+        &.col-3 {
+          //margin-top: $spring-8points * 2;
+          //margin-bottom: $spring-8points * 2;
+        }
+      }
+      a {
+        display: block;
+        text-decoration: none;
+        color: #666;
+        padding: 40px;
+        text-align: center;
+        cursor: pointer;
+        h2,
+        p {
+          margin: 0;
+          padding: 0;
+        }
+        h2 {
+          color: $spring-color;
+          font-size: 20px;
+        }
+        p {
+          padding-top: $spring-8points * 2;
+        }
+        span {
+          color: $spring-primary-color;
+        }
+        &:hover {
+          span {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

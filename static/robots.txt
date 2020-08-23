@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fuslab.github.io/sitemap.xml

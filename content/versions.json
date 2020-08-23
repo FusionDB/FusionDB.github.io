@@ -1,0 +1,15 @@
+{
+  "1.0.x": {
+    "name": "1.0.0",
+    "branch": "1.0.x"
+  },
+  "1.1.0.SNAPSHOT": {
+    "name": "1.1.0 SNAPSHOT",
+    "branch": "1.1.0.SNAPSHOT",
+    "current": true
+  },
+  "next": {
+    "name": "next",
+    "branch": "develop"
+  }
+}
