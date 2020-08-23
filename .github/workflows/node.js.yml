@@ -33,7 +33,7 @@ jobs:
       - run: echo "www.fusiondb.cn" > public/CNAME # generate website realm name for github.com
 
       - name: Deploy
-        uses: actions/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./public
