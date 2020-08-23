@@ -1,8 +1,0 @@
-{
-  "name": "spring-remark-embed-code",
-  "version": "0.0.1",
-  "description": "Dataflow Embed Snippet",
-  "main": "index.js",
-  "author": "@spring",
-  "private": true
-}

@@ -1,8 +1,0 @@
-{
-  "name": "spring-remark-code",
-  "version": "0.0.1",
-  "description": "Spring code",
-  "main": "index.js",
-  "author": "@spring",
-  "private": true
-}
