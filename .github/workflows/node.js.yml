@@ -24,14 +24,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - run: npm install yarn # install yarn
-        env: 
+        env:
           ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
           GATSBY_ALGOLIA_APP_ID: ${{secrets.GATSBY_ALGOLIA_APP_ID}}
           GOOGLE_TAGMANAGER_ID: ${{secrets.GOOGLE_TAGMANAGER_ID}}
           GOOGLE_ANALYTICS_TRACKING_ID: ${{secrets.GOOGLE_ANALYTICS_TRACKING_ID}}
       - run: yarn install # yarn install
+      - run: yarn run fix # Fix linting errors
       - run: yarn run lint # Linter
-      - run: yarn run fix  # Fix linting errors
       - run: yarn build # yarn build
       - run: echo "www.fusiondb.cn" > public/CNAME # generate website realm name for github.com
 
@@ -40,4 +40,4 @@ jobs:
         with:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages  # deploying branch
+          publish_branch: gh-pages # deploying branch

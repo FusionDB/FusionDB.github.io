@@ -12,20 +12,20 @@ const AEXT = '.tar.gz'
 const url = version => `https://github.com/${REPO}/archive/${version}${AEXT}`
 const loadRepos = async () => {
   info('Loading')
-  //cleanDir(DATA_DIR)
+  cleanDir(DATA_DIR)
   createDir(DATA_DIR)
   for (let versionId of Object.keys(versions)) {
     info(versionId)
     const version = versions[versionId]
     if (version.branch === 'develop') {
       info(`Link version ${versionId} (name: ${version.name})`)
-      // linkFile(MASTER_DIR, path.join(DATA_DIR, versionId))
+      linkFile(MASTER_DIR, path.join(DATA_DIR, versionId))
     } else {
       info(`Loading version ${versionId} (name: ${version.name})`)
       const archive = path.join(DATA_DIR, `${versionId}${AEXT}`)
-      //downloadVersion(url(versionId), archive)
-      // extractVersion(archive, versionId)
-      //cleanDir(archive)
+      downloadVersion(url(versionId), archive)
+      extractVersion(archive, versionId)
+      cleanDir(archive)
     }
   }
 }
