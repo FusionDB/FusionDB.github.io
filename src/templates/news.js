@@ -36,7 +36,7 @@ NewsTemplate.propTypes = {
 }
 
 export const articleQuery = graphql`
-  query($slug: String) {
+  query ($slug: String) {
     page: markdownRemark(frontmatter: { path: { eq: $slug } }) {
       html
       frontmatter {

@@ -602,7 +602,7 @@ ambari-server 启动成功，开始安装 Anyscale 集群。
 
 ### 集群安装
 
-浏览器输入http://your_ambari-server_ip:8080/#/login 用户名：admin 密 码：admin
+浏览器输入 http://your_ambari-server_ip:8080/#/login 用户名：admin 密 码：admin
 
 通过登录页面进入集群安装向导，如下:
 

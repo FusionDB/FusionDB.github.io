@@ -180,7 +180,7 @@ DocumentationTemplate.propTypes = {
 }
 
 export const articleQuery = graphql`
-  query($slug: String, $version: String) {
+  query ($slug: String, $version: String) {
     pages: allMarkdownRemark(
       filter: {
         fields: {

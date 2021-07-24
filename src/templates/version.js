@@ -85,7 +85,7 @@ DocumentationVersion.propTypes = {
 }
 
 export const articleQuery = graphql`
-  query($versionPath: String, $version: String) {
+  query ($versionPath: String, $version: String) {
     page: sitePage(context: { versionPath: { eq: $versionPath } }) {
       id
       path
