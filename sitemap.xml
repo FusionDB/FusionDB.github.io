@@ -71,11 +71,11 @@
 <url> <loc>https://fusionlab.cn/docs/1.0.x/stream-developer-guides/troubleshooting/debugging-stream-apps/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/stream-developer-guides/troubleshooting/debugging-scdf-streams/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/getting-started/task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/spring-task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/spring-batch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/data-flow-simple-task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/data-flow-spring-batch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/data-flow-composed-task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/spring-batch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/data-flow-simple-task-kubernetes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/data-flow-simple-task-cloudfoundry/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/continuous-deployment/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/continuous-deployment/cd-basics/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -103,7 +103,6 @@
 <url> <loc>https://fusionlab.cn/docs/1.0.x/feature-guides/batch/partitioning/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/feature-guides/batch/monitoring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/feature-guides/batch/restarting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/1.0.x/feature-guides/batch/composed-task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/polyglot/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/polyglot/processor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/polyglot/task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -111,6 +110,7 @@
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/rabbitmq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/rabbitmq/rabbit-source-sink/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/kafka/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fusionlab.cn/docs/1.0.x/feature-guides/batch/composed-task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/kafka/ext-kafka-cluster-cf/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/kinesis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/kinesis/simple-producer-consumer/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -126,8 +126,8 @@
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/cloud-providers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/cloud-providers/gke-regional-clusters/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/installation/local/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/installation/local/single-node/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/installation/local/multi-node/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fusionlab.cn/docs/installation/local/single-node/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/installation/local/manual/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/installation/cloud/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/installation/cloud/cf-cli/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -144,7 +144,6 @@
 <url> <loc>https://fusionlab.cn/docs/design/developer/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/sql-developer-guides/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/sql-developer-guides/getting-started/sql/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/sql-developer-guides/getting-started/task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/sql-developer-guides/getting-started/datasource/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/sql-developer-guides/sql/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/sql-developer-guides/sql/spring-task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -230,9 +229,9 @@
 <url> <loc>https://fusionlab.cn/docs/recipes/functional-apps/scst-function-bindings/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/recipes/cloud-providers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/recipes/cloud-providers/gke-regional-clusters/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/data-flow-spring-batch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/data-flow-composed-task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/data-flow-simple-task-kubernetes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/getting-started/task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fusionlab.cn/docs/1.0.x/batch-developer-guides/batch/spring-task/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/1.0.x/recipes/batch/sftp-to-jdbc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/docs/recipes/batch/sftp-to-jdbc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fusionlab.cn/community/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
