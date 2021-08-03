@@ -13,3 +13,4 @@ cloud-foundry/public
 .deploy_git
 setting-env.sh
 yarn.lock
+package-lock.json
